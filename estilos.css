@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.contenedor-navegacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6rem;
+    background-color: #e7f7ee;
+    box-shadow: 0 0 10px 0 #c2e6d2;
+}
+.ul-nav{
+    display: flex;
+    list-style: none;
+}
