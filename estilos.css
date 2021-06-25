@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.contenedor-navegacion{
+.contenedor-nav-principal{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -12,7 +12,7 @@
     background-color: #e7f7ee;
     box-shadow: 0 0 10px 0 #c2e6d2;
 }
-.ul-nav{
+.ul-nav-principal{
     display: flex;
     list-style: none;
 }
