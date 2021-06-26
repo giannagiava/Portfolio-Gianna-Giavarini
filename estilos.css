@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Inicio Navegacion*/
+
 .contenedor-nav-principal{
     display: flex;
     justify-content: flex-end;
@@ -27,8 +29,11 @@ a{
 
 .contacto-nav-principal{
     margin-right: 6em;
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 60px;
     color: white;
     background-color: #95d5b2;
 }
+
+/*Comienzo seccion presentacion*/
+
