@@ -37,3 +37,10 @@ a{
 
 /*Comienzo seccion presentacion*/
 
+.seccion{
+    display: flex;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}
+
