@@ -10,6 +10,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 100%;
     height: 6rem;
     background-color: #e7f7ee;
     box-shadow: 0 0 10px 0 #c2e6d2;
@@ -27,7 +29,7 @@ a{
     margin: 0 1em;
 }
 
-.contacto-nav-principal{
+.link-contacto-nav-principal{
     margin-right: 6em;
     padding: 10px 30px;
     border-radius: 60px;
@@ -51,17 +53,27 @@ a{
     justify-content: center;
 }
 .seccion-presentacion-saludo{
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .titulo-principal{
     font-size: 4rem;
+    margin-bottom: 1rem;
     color: #95d5b2;
 }
 
 .seccion-presentacion-descripcion{
-  
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.link-seccion-presentacion{
+    padding: 10px 30px;
+    border-radius: 60px;
+    margin-top: 20px;
+    background-color: #95d5b2;
+    color: white;
 }
 
 .imagen-principal{
