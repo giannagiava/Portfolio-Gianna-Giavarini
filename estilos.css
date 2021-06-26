@@ -128,3 +128,31 @@ a{
     width: 70%;
     height: auto;
 }
+
+/* ## Inicio cita ##*/
+
+.color-fondo-cita{
+    background-color: #e7f7ee;
+}
+.contenedor-cita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.img-cita{
+    width: 7%;
+    height: auto;
+    text-align: center;
+}
+.texto-cita{
+    width: 600px;
+    font-size: 22px;
+    padding: 30px 0;
+}
+.p-autor-cita{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
