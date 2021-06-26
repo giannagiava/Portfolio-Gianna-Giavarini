@@ -44,3 +44,27 @@ a{
     text-align: center;
 }
 
+.contenido-presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.seccion-presentacion-saludo{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-principal{
+    font-size: 4rem;
+    color: #95d5b2;
+}
+
+.seccion-presentacion-descripcion{
+  
+}
+
+.imagen-principal{
+    max-width: 500px;
+}
+
