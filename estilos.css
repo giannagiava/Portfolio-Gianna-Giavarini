@@ -16,3 +16,19 @@
     display: flex;
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.lista-nav-principal{
+    font-size: 1.1em;
+    margin: 0 1em;
+}
+
+.contacto-nav-principal{
+    margin-right: 6em;
+    padding: 10px;
+    border-radius: 60px;
+    color: white;
+    background-color: #95d5b2;
+}
