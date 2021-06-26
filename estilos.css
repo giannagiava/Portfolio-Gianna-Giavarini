@@ -6,13 +6,17 @@
 
 /*Inicio Navegacion*/
 
+/* -- Comienzo seccion presentacion */
 .contenedor-nav-principal{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100%;
-    height: 6rem;
+    padding: 25px 0;
     background-color: #e7f7ee;
     box-shadow: 0 0 10px 0 #c2e6d2;
 }
@@ -46,11 +50,16 @@ a{
     text-align: center;
 }
 
+/*este margin lo puse para rellenar (?) el espacio que se estaba comiendo el nav al ponerle fixed */
+.margin-section-presentacion{
+    margin-top: 90px;
+}
 .contenido-presentacion{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
 }
 .seccion-presentacion-saludo{
     font-size: 2rem;
