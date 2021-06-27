@@ -39,15 +39,18 @@ a{
     background-color: #95d5b2;
 }
 
-/* ## Clase general para secciones ## */
+/* ## Estilos generales para todas las secciones ## */
 .seccion{
     display: flex;
     justify-content: center;
     padding: 100px 40px;
     text-align: center;
 }
+h2{
+    font-size: 45px;
+}
 
-/*Comienzo seccion presentacion*/
+/* ## Comienzo seccion presentacion ## */
 
 /*este margin lo puse para rellenar (?) el espacio que se estaba comiendo el nav al ponerle fixed */
 .margin-section-presentacion{
@@ -84,10 +87,10 @@ a{
     color: white;
     font-size: 1.1em;
 }
-
 .imagen-principal{
    max-width: 450px;
 }
+
 
 /* ## Inicio seccion skills ## */
 
@@ -99,9 +102,6 @@ a{
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
-}
-.titulo-principal-seccion-skills{
-    font-size: 45px;
 }
 .texto-conocimientos{
     width: 300px;
@@ -129,7 +129,7 @@ a{
     height: auto;
 }
 
-/* ## Inicio cita ##*/
+/* ## Inicio seccion cita ##*/
 
 .color-fondo-cita{
     background-color: #e7f7ee;
@@ -150,9 +150,15 @@ a{
     font-size: 22px;
     padding: 30px 0;
 }
-.p-autor-cita{
+.nombre-autor-cita{
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+}
+
+/*Inicio seccion proyectos*/
+.contenedor-seccion-proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
