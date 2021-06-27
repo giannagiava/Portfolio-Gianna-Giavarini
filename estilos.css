@@ -155,10 +155,16 @@ h2{
 }
 
 /*Inicio seccion proyectos*/
+
 .contenedor-seccion-proyectos{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* VER MAS ADELANTE SI SE PUEDE UNIFICAR CON EL TEXTO DE CONOCIMIENTOS */
+.texto-proyectos{
+    width: 300px;
+    padding: 20px 0;
 }
 
 
