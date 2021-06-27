@@ -155,16 +155,37 @@ h2{
 }
 
 /*Inicio seccion proyectos*/
-
-.contenedor-seccion-proyectos{
+.column{
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.contenedor-seccion-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1150px;
 }
 /* VER MAS ADELANTE SI SE PUEDE UNIFICAR CON EL TEXTO DE CONOCIMIENTOS */
 .texto-proyectos{
-    width: 300px;
     padding: 20px 0;
+    text-align: center;
+}
+
+.cards-proyectos{
+    background-color: white;
+    border: 1px solid rgb(221, 214, 214);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 320px;
+}
+
+.img-seccion-proyectos{
+    display: flex;
+    width: 100%;
+}
+.cards-proyectos p{
+    text-align: center;
+    padding-top: 50px;
 }
 
 
