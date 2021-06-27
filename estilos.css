@@ -91,7 +91,6 @@ h2{
    max-width: 450px;
 }
 
-
 /* ## Inicio seccion skills ## */
 
 .color-fondo-skills{
@@ -155,14 +154,11 @@ h2{
 }
 
 /*Inicio seccion proyectos*/
-.column{
-    display: flex;
-    flex-direction: column;
-}
+
 .contenedor-seccion-proyectos{
     display: flex;
     flex-wrap: wrap;
-    width: 1150px;
+    width: 1110px;
 }
 /* VER MAS ADELANTE SI SE PUEDE UNIFICAR CON EL TEXTO DE CONOCIMIENTOS */
 .texto-proyectos{
@@ -171,12 +167,16 @@ h2{
 }
 
 .cards-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     border: 1px solid rgb(221, 214, 214);
     border-radius: 8px;
     padding: 20px;
-    margin: 20px;
-    width: 320px;
+    margin: 10px;
+    width: 350px;
 }
 .cards-proyectos img{
     display: flex;
@@ -184,8 +184,9 @@ h2{
 }
 
 .cards-proyectos p{
-    text-align: center;
-    padding-top: 50px;
+    font-size: 18px;
+    padding-top: 20px;
+    
 }
 
 
