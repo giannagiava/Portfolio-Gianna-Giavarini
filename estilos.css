@@ -198,3 +198,14 @@ h2{
 }
 
 
+
+/*Inicio seccion conocimietos y formulario*/
+
+.contenedor-contactame-escribime{
+    background-color: white;
+    width: 1090px;
+    height: 690px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 80px;
+    }
