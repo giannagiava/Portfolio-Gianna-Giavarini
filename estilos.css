@@ -23,7 +23,6 @@ body{
 }
 .ul-nav-principal{
     display: flex;
-    list-style: none;
 }
 a{
     text-decoration: none;
@@ -212,34 +211,37 @@ ul{
     border-radius: 15px;
     display: flex;
     padding: 80px;
-    }
+}
 
-    .contactame{
-        display: flex;
-        flex-direction: column;
-        padding-right: 100px;
-    }
-    .contactame h2{
-        padding-bottom: 40px;
-     }
-        .contactame p{
-            max-width: 400px;
-            padding-bottom: 40px;
-        }
-        .contenedor-link-redes{
-         display: flex;
-        }
-        .links-redes-sociales{
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 2rem;
-        }
-       
-        .links-redes-sociales i{
-           font-size: 25px;
-           color: #a4e6c0;
-           padding-right: 15px;
-        }
-        .links-redes-sociales li{
-           padding-bottom: 20px;
-        }  
+.contactame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 100px;
+}
+.contactame h2{
+    padding-bottom: 40px;
+}
+.contactame p{
+    text-align: start;
+    max-width: 400px;
+    padding-bottom: 40px;
+}
+.contenedor-link-redes{
+    display: flex;
+    
+}
+.links-redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+}  
+.links-redes-sociales i{
+    font-size: 25px;
+    color: #a4e6c0;
+    padding-right: 15px;
+}
+.links-redes-sociales li{
+    padding-bottom: 20px;
+}  
