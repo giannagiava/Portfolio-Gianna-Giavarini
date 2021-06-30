@@ -56,6 +56,9 @@ h2{
 .color-fondo-contenedor-gris{
     background-color: #F6F7FB;
 }
+ul{
+    list-style: none;
+}
 
 /* ## Comienzo seccion presentacion ## */
 
@@ -199,7 +202,7 @@ h2{
 
 
 
-/*Inicio seccion conocimietos y formulario*/
+/*Inicio seccion contactame y formulario*/
 
 .contenedor-contactame-escribime{
     background-color: white;
@@ -207,5 +210,36 @@ h2{
     height: 690px;
     border: 1px solid black;
     border-radius: 15px;
+    display: flex;
     padding: 80px;
     }
+
+    .contactame{
+        display: flex;
+        flex-direction: column;
+        padding-right: 100px;
+    }
+    .contactame h2{
+        padding-bottom: 40px;
+     }
+        .contactame p{
+            max-width: 400px;
+            padding-bottom: 40px;
+        }
+        .contenedor-link-redes{
+         display: flex;
+        }
+        .links-redes-sociales{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 2rem;
+        }
+       
+        .links-redes-sociales i{
+           font-size: 25px;
+           color: #a4e6c0;
+           padding-right: 15px;
+        }
+        .links-redes-sociales li{
+           padding-bottom: 20px;
+        }  
