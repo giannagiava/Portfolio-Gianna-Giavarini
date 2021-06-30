@@ -43,6 +43,7 @@ a{
 }
 
 /* ## Estilos generales para todas las secciones ## */
+
 .seccion{
     display: flex;
     justify-content: center;
@@ -51,6 +52,9 @@ a{
 }
 h2{
     font-size: 45px;
+}
+.color-fondo-contenedor-gris{
+    background-color: #F6F7FB;
 }
 
 /* ## Comienzo seccion presentacion ## */
@@ -96,9 +100,6 @@ h2{
 
 /* ## Inicio seccion skills ## */
 
-.color-fondo-skills{
-    background-color: #F6F7FB;
-}
 .contenedor-seccion-skills{
     display: flex;
     flex-direction: column;
