@@ -43,20 +43,21 @@ a{
 
 /* ## Estilos generales para todas las secciones ## */
 
+h2{
+    font-size: 45px;
+}
+ul{
+    list-style: none;
+}
 .seccion{
     display: flex;
     justify-content: center;
     padding: 100px 40px;
     text-align: center;
 }
-h2{
-    font-size: 45px;
-}
+
 .color-fondo-contenedor-gris{
     background-color: #F6F7FB;
-}
-ul{
-    list-style: none;
 }
 
 /* ## Comienzo seccion presentacion ## */
@@ -137,7 +138,7 @@ ul{
 /* ## Inicio seccion cita ##*/
 
 .color-fondo-cita{
-    background-color: #e7f7ee;
+    background-color: #a7ddbd;
 }
 .contenedor-cita{
     display: flex;
@@ -200,7 +201,6 @@ ul{
 }
 
 
-
 /*Inicio seccion contactame y formulario*/
 
 .contenedor-contactame-escribime{
@@ -217,7 +217,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 100px;
+    
 }
 .contactame h2{
     padding-bottom: 40px;
