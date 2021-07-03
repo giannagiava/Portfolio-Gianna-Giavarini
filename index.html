@@ -32,10 +32,10 @@
             </ul>
         </nav>
 
-        <! –– Inicio Main -->
+        <! –– Main -->
             <main>
 
-                <! -- Comienzo seccion presentacion -->
+                <! -- Inicio seccion presentacion -->
 
                     <section class="seccion margin-section-presentacion">
                         <div class="contenido-presentacion">
@@ -165,79 +165,89 @@
                                 </section>
 
                                 <! –– Inicio Secciones Contactame y Formulario -->
-                                
+
                                     <section class="seccion color-fondo-contenedor-gris">
 
                                         <div class="contenedor-contactame-escribime">
-                                            <div class="apartado-contactame">
-                                                <h2>Contactame</h2>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi
-                                                    quasi repudiandae quam hic quo, qui cumque nam
-                                                    voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                                                  <section class="contenedor-links-redes">
-                                                    <ul class="links-redes-sociales">
-                                                        <li>
-                                                            <i class="fa fa-twitter"></i>
-                                                            <a href="https://twitter.com/_giava"
-                                                                target="_blank">@_giava</a>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fa fa-github"></i>
-                                                            <a href="https://github.com/giannagiava"
-                                                                target="_blank">giannagiava</a>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fa fa-linkedin"></i>
-                                                            <a href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/"
-                                                                target="_blank">GiannaGiavarini</a>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fa fa-envelope"></i>
-                                                            <a href="https://mail.google.com/mail/u/0/#inbox"
-                                                                target="_blank">giavarinigianna@gmail.com</a>
-                                                        </li>
-                                                    </ul>
-                                                 </section>
 
-                                            </div>
+                                            <! -- Contactame -->
 
-                                            <div class="apartado-escribime">
+                                                <div class="apartado-contactame">
+                                                    <h2>Contactame</h2>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi
+                                                        quasi repudiandae quam hic quo, qui cumque nam
+                                                        voluptates, ipsam, tempora eaque numquam eligendi.</p>
+                                                    <section class="contenedor-links-redes">
+                                                        <ul class="links-redes-sociales">
+                                                            <li>
+                                                                <i class="fa fa-twitter"></i>
+                                                                <a href="https://twitter.com/_giava"
+                                                                    target="_blank">@_giava</a>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-github"></i>
+                                                                <a href="https://github.com/giannagiava"
+                                                                    target="_blank">giannagiava</a>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-linkedin"></i>
+                                                                <a href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/"
+                                                                    target="_blank">GiannaGiavarini</a>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-envelope"></i>
+                                                                <a href="https://mail.google.com/mail/u/0/#inbox"
+                                                                    target="_blank">giavarinigianna@gmail.com</a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
 
-                                                <h2>Escribime</h2>
+                                                </div>
 
-                                                <form class="apartado-escribime" action="">
-                                                    <div class="campos-nombre-apellido">
+                                                <! -- Formulario -->
 
-                                                        <div>
-                                                            <label for="nombre">Nombre *</label>
-                                                            <input type="text" name="nombre" id="nombre">
-                                                        </div>
+                                                    <div class="apartado-escribime">
 
-                                                        <div>
-                                                            <label for="apellido">Apellido *</label>
-                                                            <input type="text" name="apellido" id="apellido">
-                                                        </div>
+                                                        <h2>Escribime</h2>
+
+                                                        <form class="apartado-escribime" action="">
+                                                            <div class="campos-nombre-apellido">
+
+                                                                <div>
+                                                                    <label for="nombre">Nombre *</label>
+                                                                    <input type="text" name="nombre" id="nombre"
+                                                                        placeholder="Porej: Juan">
+                                                                </div>
+
+                                                                <div>
+                                                                    <label for="apellido">Apellido *</label>
+                                                                    <input type="text" name="apellido" id="apellido"
+                                                                        placeholder="Porej: Perez">
+                                                                </div>
+                                                            </div>
+
+
+                                                            <label for="email">Email *</label>
+                                                            <input type="email" name="email" id="email"
+                                                                placeholder="Porej: juanperez@gmail.com">
+
+
+
+                                                            <label for="mensaje">Mensaje *</label>
+                                                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                                                                placeholder="Escriba su mensaje aquí"></textarea>
+
+
+
+                                                            <label for="enviar">
+                                                                <input class="enviar-formulario" type="submit"
+                                                                    name="enviar" value="Enviar">
+                                                            </label>
+
+                                                        </form>
+
                                                     </div>
-
-                                                    <div class="campos-email-mensaje">
-                                                        <label for="email">Email *</label>
-                                                        <input type="email" name="email" id="email">
-                                                    </div>
-
-                                                    <div class="campos-email-mensaje">
-                                                        <label for="mensaje">Mensaje *</label>
-                                                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"
-                                                            placeholder="Escriba su mensaje aquí"></textarea>
-                                                    </div>
-
-                                                    <label for="enviar">
-                                                        <input type="submit" name="enviar" value="Enviar">
-                                                    </label>
-
-                                                </form>
-
-                                            </div>
 
                                         </div>
 

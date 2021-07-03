@@ -45,6 +45,7 @@ a{
 
 h2{
     font-size: 45px;
+    font-weight: 900;
 }
 ul{
     list-style: none;
@@ -205,19 +206,17 @@ ul{
 
 .contenedor-contactame-escribime{
     background-color: white;
-    width: 1090px;
-    height: 690px;
     border: 1px solid black;
     border-radius: 15px;
     display: flex;
-    padding: 80px;
-    justify-content: space-evenly;
+    padding: 80px 60px;
 }
 
 .apartado-contactame{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 50px;
 }
 .apartado-contactame h2{
     padding-bottom: 40px;
@@ -226,10 +225,10 @@ ul{
     text-align: start;
     max-width: 400px;
     padding-bottom: 40px;
+    padding-top: 10px;
 }
 .contenedor-link-redes{
-    display: flex;
-    
+    display: flex; 
 }
 .links-redes-sociales{
     display: flex;
@@ -258,6 +257,7 @@ label{
     display: block;
     text-align: start;
     padding: 10px 0;
+    font-weight: 800;
 }
 
 .campos-nombre-apellido{
@@ -270,13 +270,18 @@ input, textarea{
     border-radius: 15px;
     border: 1px solid #F6F7FB;
     outline: none;
+    font-size: 17px;
 }
-
-.campos-email-mensaje input{
-    width: 430px;
-    
+input[type="email"]{
+    width: 525px;
 }
-.campos-email-mensaje textarea{
-    width: 430px;
-    
+textarea{
+    width: 525px;
+}
+input[type="submit"] {
+    padding: 10px 30px;
+    border-radius: 60px;
+    background-color: #a4e6c0;
+    color: white;
+    font-size: 20px;
 }
