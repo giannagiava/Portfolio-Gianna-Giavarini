@@ -209,6 +209,7 @@ ul{
     border: 1px solid black;
     border-radius: 15px;
     display: flex;
+    width: 1090px;
     padding: 80px 60px;
 }
 
