@@ -209,7 +209,7 @@ ul{
     border: 1px solid black;
     border-radius: 15px;
     display: flex;
-    width: 1090px;
+    width: 1000px;
     padding: 80px 60px;
 }
 
@@ -217,7 +217,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .apartado-contactame h2{
     padding-bottom: 40px;
@@ -250,6 +250,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 .apartado-escribime h2{
     padding-bottom: 40px;
@@ -265,7 +266,7 @@ label{
     display: flex;
 }
 input, textarea{
-    padding: 10px 20px;
+    padding: 10px;
     margin-right: 10px;
     background-color: #F6F7FB;
     border-radius: 15px;
@@ -274,10 +275,10 @@ input, textarea{
     font-size: 17px;
 }
 input[type="email"]{
-    width: 525px;
+    width: 485px;
 }
 textarea{
-    width: 525px;
+    width: 485px;
 }
 input[type="submit"] {
     padding: 10px 30px;
