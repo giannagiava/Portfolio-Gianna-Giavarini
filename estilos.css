@@ -211,18 +211,18 @@ ul{
     border-radius: 15px;
     display: flex;
     padding: 80px;
+    justify-content: space-evenly;
 }
 
-.contactame{
+.apartado-contactame{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
-.contactame h2{
+.apartado-contactame h2{
     padding-bottom: 40px;
 }
-.contactame p{
+.apartado-contactame p{
     text-align: start;
     max-width: 400px;
     padding-bottom: 40px;
@@ -246,24 +246,37 @@ ul{
     padding-bottom: 20px;
 }  
 
-.contenedor-escribime{
+.apartado-escribime{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
-.escribime h2{
-
+.apartado-escribime h2{
+    padding-bottom: 40px;
 }
-
-form{
-    width: 50%;
-}
-
 label{
     display: block;
-    
+    text-align: start;
+    padding: 10px 0;
 }
+
 .campos-nombre-apellido{
     display: flex;
+}
+input, textarea{
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #F6F7FB;
+    border-radius: 15px;
+    border: 1px solid #F6F7FB;
+    outline: none;
+}
+
+.campos-email-mensaje input{
+    width: 430px;
+    
+}
+.campos-email-mensaje textarea{
+    width: 430px;
+    
 }
