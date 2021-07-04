@@ -49,6 +49,7 @@ h2{
 }
 ul{
     list-style: none;
+    display: flex;
 }
 .seccion{
     display: flex;
