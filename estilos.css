@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Comfortaa', cursive;
+   
 }
 
 /*Inicio Navegacion*/
@@ -19,7 +20,7 @@ body{
     width: 100%;
     height: 80px;
     background-color: #B5838D;
-    box-shadow: 0 0 10px 0 #c2e6d2;
+    box-shadow: 0 0 10px 0 #73454E;
 }
 a{
     text-decoration: none;
@@ -27,14 +28,14 @@ a{
     box-sizing: border-box;
 }
 .lista-nav-principal{
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 600;
     margin: 0 16px;
 }
 
 .link-contacto-nav-principal{
-    margin-right: 10em;
-    padding: 10px 30px;
+    margin-right: 100px;
+    padding: 10px 10px;
     border-radius: 60px;
     color: white;
     background-color: #73454E;
@@ -44,15 +45,18 @@ a{
 
 .lista-nav-principal :hover{
     color: white;
+
 }
+
 .lista-nav-principal :focus{
     box-shadow: 0px 0px 7px #613a42;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 10px 10px;
+    border-radius: 60px;
+    background-color: #B5838D;
+    
 } 
-.link-contacto-nav-principal :focus{
-    box-shadow: 0px 0px 7px #613a42;
-}
+
+
 /* ## Estilos generales para todas las secciones ## */
 
 h2{
@@ -111,11 +115,12 @@ ul{
     background-color: #73454E;
     color: white;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .imagen-principal{
    max-width: 450px;
 }
+
 
 /* ## Inicio seccion skills ## */
 
@@ -151,6 +156,9 @@ ul{
     height: auto;
 }
 
+   /* HOVER SKILLS */
+
+  
 /* ## Inicio seccion cita ##*/
 
 .color-fondo-cita{
@@ -253,11 +261,11 @@ ul{
     align-items: flex-start;
     padding-bottom: 32px;
 }  
-.links-redes-sociales i{
+.links-redes-sociales .fa{
     font-size: 25px;
     color: #b5838d;
-    padding-right: 10px;
-    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 50%;
 }
 .links-redes-sociales li{
     padding-bottom: 20px;
@@ -270,6 +278,11 @@ ul{
     align-items: flex-start;
     
 }
+
+.links-redes-sociales i:hover{
+    color: white;
+    background-color: #73454E;
+ }
 
 /* Escribime */
 
@@ -310,10 +323,9 @@ input[type="submit"] {
     font-size: 20px;
 }
      /* FOCUS SECCION FORMULARIO */
+
 input:focus, textarea:focus {
-    box-shadow: 0px 0px 7px #613a42;
-    padding: 10px;
-    border-radius: 20px;
+    box-shadow: 0px 0px 9px #613a42;
 }
 
 /* Inicio seccion footer */
@@ -340,7 +352,7 @@ input:focus, textarea:focus {
     padding: 30px 0;
 }
 
-.lista-redes-sociales-footer li{
+.lista-redes-sociales-footer .fa{
     padding: 10px 10px;
     margin: 0 10px;
     background-color: white;
@@ -352,7 +364,14 @@ input:focus, textarea:focus {
     background-color: white;
     color: #b5838d;
 }
+ 
+/* HOVER LINK REDES SOCIALES */
 
+.lista-redes-sociales-footer i:hover{
+   color: white;
+   background-color: #73454E;
+   box-shadow: 0px 0px 12px 4px #ffff;
+}
 
 
 
