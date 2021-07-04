@@ -201,8 +201,7 @@ ul{
     
 }
 
-
-/*Inicio seccion contactame y formulario*/
+/*Inicio seccion contactame y escribime*/
 
 .contenedor-contactame-escribime{
     background-color: white;
@@ -212,6 +211,8 @@ ul{
     width: 1000px;
     padding: 80px 60px;
 }
+
+/* Contactame */
 
 .apartado-contactame{
     display: flex;
@@ -252,6 +253,9 @@ ul{
     align-items: flex-start;
     
 }
+
+/* Escribime */
+
 .apartado-escribime h2{
     padding-bottom: 40px;
 }
@@ -289,6 +293,7 @@ input[type="submit"] {
 }
 
 /* Inicio seccion footer */
+
 .color-fondo-footer{
     background-color: #a4e6c0;
 }
@@ -302,3 +307,18 @@ input[type="submit"] {
 .lista-principal-footer ul{
     display: flex;
 }
+.lista-principal-footer li{
+  padding: 0 10px;
+}
+.lista-redes-sociales-footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+/* .lista-redes-sociales-footer ul{
+    display: flex;
+}
+.lista-redes-sociales-footer li{
+    display: flex;
+    text-align: center;
+} */
