@@ -296,3 +296,9 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
 }
+.lista-principal-footer{
+    display: flex;
+}
+.lista-principal-footer ul{
+    display: flex;
+}
