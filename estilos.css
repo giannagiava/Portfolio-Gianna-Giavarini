@@ -29,8 +29,9 @@ a{
     color: #000000;
 }
 .lista-nav-principal{
-    font-size: 1.1em;
-    margin: 0 1em;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 16px;
 }
 
 .link-contacto-nav-principal{
@@ -76,19 +77,20 @@ ul{
     text-align: start;
 }
 .seccion-presentacion-saludo{
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
 }
 
 .titulo-principal{
-    font-size: 4.5rem;
-    margin-bottom: 1rem;
+    font-size: 68px;
+    margin-bottom: 16px;
     color: #95d5b2;
 }
 
 .seccion-presentacion-descripcion{
-    font-size: 1.3em;
-    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
 .link-seccion-presentacion{
@@ -97,7 +99,8 @@ ul{
     margin-top: 20px;
     background-color: #95d5b2;
     color: white;
-    font-size: 1.1em;
+    font-size: 18px;
+    font-weight: 800;
 }
 .imagen-principal{
    max-width: 450px;
@@ -206,7 +209,7 @@ ul{
 
 .contenedor-contactame-escribime{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(221, 214, 214);
     border-radius: 15px;
     display: flex;
     width: 1000px;
@@ -237,7 +240,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 2rem;
+    padding-bottom: 32px;
 }  
 .links-redes-sociales i{
     font-size: 25px;
@@ -329,4 +332,9 @@ input[type="submit"] {
     background-color: white;
     color: #a4e6c0;
 }
+
+
+/* HOVER */
+
+
 
