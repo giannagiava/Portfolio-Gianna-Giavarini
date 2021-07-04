@@ -287,3 +287,12 @@ input[type="submit"] {
     color: white;
     font-size: 20px;
 }
+
+/* Inicio seccion footer */
+.color-fondo-footer{
+    background-color: #a4e6c0;
+}
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+}
