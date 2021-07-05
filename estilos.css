@@ -80,7 +80,6 @@ ul{
 
 /* ## Comienzo seccion presentacion ## */
 
-/*este margin lo puse para rellenar (?) el espacio que se estaba comiendo el nav al ponerle fixed */
 .margin-section-presentacion{
     margin-top: 90px;
 }
@@ -118,7 +117,7 @@ ul{
     font-weight: 600;
 }
 .imagen-principal{
-   max-width: 450px;
+   width: 450px;
 }
 
 
@@ -191,12 +190,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
-}
-
-/* VER MAS ADELANTE SI SE PUEDE UNIFICAR CON EL TEXTO DE CONOCIMIENTOS */
-.texto-proyectos{
-    padding: 20px 0;
-    text-align: center;
+    background-color: white;
 }
 
 .texto-seccion-proyectos{
@@ -224,6 +218,7 @@ ul{
     padding-top: 20px;
     
 }
+
 /*Inicio seccion contactame y escribime*/
 
 .contenedor-contactame-escribime{
@@ -384,22 +379,9 @@ input:focus, textarea:focus {
    box-shadow: 0px 0px 12px 4px #ffff;
 }
 
-/* MEDIA QUERIES SECCION CONTACTO Y FORMULARIO */ 
-
-@media screen and (max-width: 900px) {
-    .contenedor-contactame-escribime{
-        display: flex;
-        flex-direction: column;
-        border: 0;
-    }
-    .apartado-escribime{
-        padding-top: 50px;
-    }
-    
-}
 
 
-
+/* MEDIA QUERIES */ 
 
 
 @media screen and (max-width: 1100px) {
@@ -431,8 +413,22 @@ input:focus, textarea:focus {
    
 }
 
+@media screen and (max-width: 900px) {
+    .contenedor-contactame-escribime{
+        display: flex;
+        flex-direction: column;
+        border: 0;
+    }
+    .apartado-escribime{
+        padding-top: 50px;
+    }
+    .apartado-escribime h2{
+        padding-bottom: 0;
+    }
+    
+}
 
-@media screen and (max-width: 767px) and (min-width: 670px) {
+@media screen and (max-width: 767px)  {
     .contenedor-seccion-proyectos{
         display: flex;
         flex-wrap: wrap;
@@ -441,6 +437,7 @@ input:focus, textarea:focus {
     .cards-proyectos{
         width: 220px;
     }
+
 }
 
 @media screen and (max-width:670px) {
@@ -449,13 +446,13 @@ input:focus, textarea:focus {
         text-align: center;
     }
 
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 500px;
+    .contenedor-skills{
+        padding: 25px 30px;
+        margin: 10px;
     }
-    .cards-proyectos{
-        width: 220px;
+    .imagen-skills{
+        width: 50%;
+        height: auto;
     }
 
     .texto-cita{
@@ -464,5 +461,76 @@ input:focus, textarea:focus {
         padding: 30px 0;
     }
 
+    .contenedor-seccion-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+    .cards-proyectos{
+        width: 220px;
+    }
+    .lista-principal-footer{
+        display: none;
+    }
+
 }
 
+@media screen and (max-width: 530px) {
+
+    .seccion-presentacion-descripcion{
+       text-align: center;
+    }
+
+    .contenedor-seccion-proyectos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+    }
+    .cards-proyectos{
+        width: 370px;
+    }
+    .texto-seccion-proyectos{
+        font-size: 13px;
+    }
+    .contenedor-contactame-escribime{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 460px) {
+
+    .seccion{
+        padding: 100px 0;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .imagen-principal{
+        width: 300px;
+     }
+
+    .contenedor-seccion-proyectos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+    }
+
+    .cards-proyectos{
+        width: 200px;
+    }
+
+    .contenedor-contactame-escribime{
+        padding: 0;
+    }
+.apartado-contactame{
+    margin-right: 0;
+}
+
+.apartado-contactame p{
+    
+    max-width: 300px;
+
+}
+
+}
