@@ -189,7 +189,7 @@ ul{
 .contenedor-seccion-proyectos{
     display: flex;
     flex-wrap: wrap;
-    width: 1110px;
+    max-width: 1000px;
 }
 
 /* VER MAS ADELANTE SI SE PUEDE UNIFICAR CON EL TEXTO DE CONOCIMIENTOS */
@@ -211,7 +211,7 @@ ul{
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    width: 350px;
+    width: 300px;
 }
 .cards-proyectos img{
     display: flex;
@@ -223,7 +223,6 @@ ul{
     padding-top: 20px;
     
 }
-
 /*Inicio seccion contactame y escribime*/
 
 .contenedor-contactame-escribime{
@@ -285,8 +284,6 @@ ul{
  }
 
 
-
-
 /* Escribime */
 
 .apartado-escribime h2{
@@ -325,6 +322,7 @@ input[type="submit"] {
     color: white;
     font-size: 20px;
 }
+
      /* FOCUS SECCION FORMULARIO */
 
 input:focus, textarea:focus {
@@ -377,5 +375,44 @@ input:focus, textarea:focus {
    box-shadow: 0px 0px 12px 4px #ffff;
 }
 
+
+@media screen and (max-width: 1100px) and (min-width: 1024px){
+    .contenedor-nav-principal{
+        display: none;
+    }
+    .contenido-presentacion{
+        display: flex;
+        align-items: center;
+    }
+    .margin-section-presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen-principal{
+       text-align: center;
+       margin-top: 100px;
+    }
+    .contenedor-seccion-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 810px;
+    }
+    .cards-proyectos{
+        width: 250px;
+    }
+   
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .contenedor-seccion-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+    }
+    .cards-proyectos{
+        width: 220px;
+    }
+}
 
 
