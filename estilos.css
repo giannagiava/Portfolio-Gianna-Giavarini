@@ -285,6 +285,9 @@ ul{
 
 
 /* Escribime */
+.apartado-escribime{
+    width: 100%;
+}
 
 .apartado-escribime h2{
     padding-bottom: 40px;
@@ -299,8 +302,11 @@ label{
 .campos-nombre-apellido{
     display: flex;
 }
+.campo-nombre{
+    margin-right: 10px;
+}
 input, textarea{
-    padding: 10px;
+    padding: 10px 10px;
     margin-right: 10px;
     background-color: #F6F7FB;
     border-radius: 15px;
@@ -308,12 +314,13 @@ input, textarea{
     outline: 0;
     font-size: 17px;
     box-sizing: border-box;
+    width: 100%;
 }
 input[type="email"]{
-    width: 485px;
+    width: 100%;
 }
 textarea{
-    width: 485px;
+    width: 100%;
 }
 input[type="submit"] {
     padding: 10px 30px;
@@ -376,7 +383,7 @@ input:focus, textarea:focus {
 }
 
 
-@media screen and (max-width: 1100px) and (min-width: 1024px){
+@media screen and (max-width: 1100px) {
     .contenedor-nav-principal{
         display: none;
     }
@@ -412,6 +419,9 @@ input:focus, textarea:focus {
     }
     .cards-proyectos{
         width: 220px;
+    }
+    .contenedor-contactame-escribime{
+        width: 900px;
     }
 }
 
