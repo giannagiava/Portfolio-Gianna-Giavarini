@@ -190,7 +190,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
-    background-color: rgb(230, 134, 134);
+    background-color: white;
 }
 
 .texto-seccion-proyectos{
@@ -420,12 +420,12 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 900px) {
+
     .seccion-contacto-formulario{
         display: flex;
         justify-content: center;
-        padding: 50px 40px;
-        text-align: start;
-        background-color: rgb(177, 80, 80);
+        padding: 50px 20px;
+        background-color: white;
     }
 
 
