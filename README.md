@@ -12,8 +12,7 @@ Portfolio personal desarrollado para plasmar mi aprendizaje adquirido en el prim
 - Tiene un diseño responsive para diferentes pantallas
 - Es un sitio web accesible
 
-[Haciendo click acá podés verlo materializado  ✨](https://giannagiava.github.io/Portfolio-Gianna-Giavarini/ )
+### [Haciendo click acá podés verlo materializado  ✨](https://giannagiava.github.io/Portfolio-Gianna-Giavarini/ )
 
-![Imagen portfolio](/img/imagen-readme.png)
 
 ¡Gracias por visitar mi repositorio :)!
