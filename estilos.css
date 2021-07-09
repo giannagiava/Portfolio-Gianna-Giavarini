@@ -129,7 +129,7 @@ ul{
     align-items: center;
     max-width: 1000px;
 }
-.contenedor-seccion-skills p{
+.contenedor-seccion-skills >p{
     padding: 20px 0;
 }
 .contenedor-skills{
@@ -154,13 +154,12 @@ ul{
 
 .skills img{
     width: 70%;
-    height: auto;
 }
 
 /* HOVER */
 
 .contenedor-skills :hover{
-    background-color: #C9A6AD;
+    background-color: #e6dddd;
 }
   
 /* ## Inicio seccion cita ##*/
@@ -206,7 +205,7 @@ ul{
     align-items: center;
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 30%;
     background-color: white;
     border: 1px solid rgb(221, 214, 214);
     border-radius: 8px; 
@@ -222,7 +221,7 @@ ul{
 }
 
 .contenedor-cards-proyectos :hover{
-    border: 1px solid green;
+    background-color: #e6dddd;
 }
 
 /*Inicio seccion contactame y escribime*/
@@ -294,6 +293,7 @@ ul{
 
 
 /* Escribime */
+
 .apartado-escribime{
     width: 100%;
 }
@@ -401,7 +401,6 @@ input:focus, textarea:focus {
         display: none;
     }
     .contenido-presentacion{
-        display: flex;
         align-items: center;
     }
     .margin-section-presentacion{
@@ -412,29 +411,22 @@ input:focus, textarea:focus {
     }
     .imagen-principal{
         margin-top: 100px;
-       text-align: center;
+        text-align: center;
     }
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 810px;
-    }
-    .cards-proyectos{
-        width: 250px;
-    }
-   
+
 }
 
 @media screen and (max-width: 900px) {
 
+    .cards-proyectos{
+        width: 47%;
+    }
+
     .seccion-contacto-formulario{
-        display: flex;
-        justify-content: center;
         padding: 50px 20px;
         background-color: white;
     }
     .contenedor-contactame-escribime{
-        display: flex;
         flex-direction: column;
         padding: 0;
         border: 0;
@@ -452,13 +444,8 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 767px)  {
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 500px;
-    }
     .cards-proyectos{
-        width: 220px;
+        width: 45%;
     }
 
 }
@@ -469,29 +456,14 @@ input:focus, textarea:focus {
         text-align: center;
     }
 
-    .contenedor-skills{
-        padding: 25px 30px;
-        margin: 10px;
-    }
-    .imagen-skills{
-        width: 50%;
-        height: auto;
+    .skills{
+        width: 40%;
     }
 
     .texto-cita{
         width: 300px;
-        padding: 30px 0;
-        font-size: 22px;
     }
 
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 500px;
-    }
-    .cards-proyectos{
-        width: 220px;
-    }
     .lista-principal-footer{
         display: none;
     }
@@ -503,18 +475,11 @@ input:focus, textarea:focus {
     .seccion-presentacion-descripcion{
        text-align: center;
     }
-
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 0;
+    .skills{
+        padding: 20px 50px;
     }
     .cards-proyectos{
-        width: 370px;
-    }
-    .texto-seccion-proyectos{
-        font-size: 13px;
+        width: 100%;
     }
     .contenedor-contactame-escribime{
         padding: 0;
@@ -531,23 +496,7 @@ input:focus, textarea:focus {
     }
     .imagen-principal{
         width: 300px;
-     }
-
-    .contenedor-seccion-proyectos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 330px;
     }
-
-    .texto-seccion-proyectos{
-        font-size: 12px;
-    }
-
-    .cards-proyectos{
-        width: 200px;
-    }
-
     .contenedor-contactame-escribime{
         padding: 0;
     }
