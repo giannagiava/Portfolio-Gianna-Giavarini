@@ -1,326 +1,364 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gianna Giavarini</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
     <! –– Estilos letras -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 
-        <! –– Link iconos -->
-            <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <! –– Link iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <! –– Inicio Nav -->
-        <nav class="contenedor-nav-principal">
-            <ul>
-                <li class="lista-nav-principal"><a href="#hola">HOLA</a></li>
-                <li class="lista-nav-principal"><a href="#conocimientos">CONOCIMENTOS</a></li>
-                <li class="lista-nav-principal"><a href="#proyectos">PROYECTOS</a></li>
-                <li class="lista-nav-principal"><a class="link-contacto-nav-principal" href="#contacto">CONTACTO</a>
+    <nav class="contenedor-nav-principal">
+      <ul>
+        <li class="lista-nav-principal"><a href="#hola">HOLA</a></li>
+        <li class="lista-nav-principal">
+          <a href="#conocimientos">CONOCIMENTOS</a>
+        </li>
+        <li class="lista-nav-principal"><a href="#proyectos">PROYECTOS</a></li>
+        <li class="lista-nav-principal">
+          <a class="link-contacto-nav-principal" href="#contacto">CONTACTO</a>
+        </li>
+      </ul>
+    </nav>
+
+    <! –– Main -->
+    <main>
+      <! -- Inicio seccion presentacion -->
+
+      <section class="seccion margin-section-presentacion" id="hola">
+        <div class="contenido-presentacion">
+          <p class="seccion-presentacion-saludo">¡Hola! Soy</p>
+          <h1 class="titulo-principal">Gianna Giavarini</h1>
+          <p class="seccion-presentacion-descripcion">
+            Desarrolladora frontend en proceso &#9203;
+          </p>
+          <a class="link-seccion-presentacion" href="#proyectos">LO QUE HAGO</a>
+        </div>
+        <div>
+          <img
+            class="imagen-principal"
+            src="img/img-presentacion/undraw_Plans_re_s9mf.svg"
+            alt="imagen ilustrativa"
+          />
+        </div>
+      </section>
+
+      <! –– Inicio seccion skills -->
+
+      <section class="seccion color-fondo-seccion-skills" id="conocimientos">
+        <div class="contenedor-seccion-skills">
+          <h2>Mis Conocimientos</h2>
+          <p>
+            Estos son los conocimientos que voy a ir adquiriendo a lo largo
+            <br>
+             de este hermoso camino de desafios y aprendizajes.
+          </p>
+          <div class="contenedor-skills">
+            <div class="skills">
+              <img
+                src="./img/html5-original.svg"
+                alt="html"
+              />
+              <p>HTML 5</p>
+            </div>
+            <div class="skills">
+              <img
+                src="./img/css3-original.svg"
+                alt="css"
+              />
+              <p>CSS 3</p>
+            </div>
+            <div class="skills">
+              <img
+                src="./img/sass-original.svg"
+                alt="sass"
+              />
+              <p>Sass</p>
+            </div>
+            <div class="skills">
+              <img
+                src="./img/javascript-original.svg"
+                alt="javascript"
+              />
+              <p>JavaScript</p>
+            </div>
+            <div class="skills">
+              <img
+                src="./img/react-original.svg"
+                alt="react"
+              />
+              <p>React</p>
+            </div>
+            <div class="skills">
+              <img
+                src="./img/git-original.svg"
+                alt="git"
+              />
+              <p>GIT</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <! –– Inicio seccion cita -->
+
+      <blockquote class="seccion color-fondo-cita">
+        <div class="contenedor-cita">
+          <i class="fa fa-quote-right"></i>
+          <div class="texto-cita">
+            <p>
+                Cada fallo puede enseñarte cómo hacer algo mejor la próxima vez
+            </p>
+          </div>
+          <p class="nombre-autor-cita">Randi Zuckerberg</p>
+        </div>
+      </blockquote>
+
+      <! –– Inicio seccion proyectos -->
+
+      <section class="seccion" id="proyectos">
+        <div>
+          <h2>Mis proyectos</h2>
+          <p class="texto-seccion-proyectos">
+            En esta sección podés visualizar mis desarrollos
+            <br />
+            más recientes, realizados en el bootcamp de Ada  
+          </p>
+
+          <div class="contenedor-cards-proyectos">
+             
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_Plans_re_s9mf.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Portfolio</p>
+              </a>
+              
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_Feeling_of_joy_re_cqko.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Generador de memes</p>
+              </a>
+            
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_Mobile_apps_re_3wjf.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Match 3</p>
+              </a>
+ 
+              <a href="#portfolio"  class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_revenue_3osh.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Controlador de gastos</p>
+              </a>
+              
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_Calendar_re_ki49.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Administrador de reuniones</p>
+              </a>
+              
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_my_app_re_gxtj.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Todo app</p>
+              </a>
+  
+              <a href="#portfolio" class="cards-proyectos">
+                <img
+                  src="img/img-seccion-proyectos/undraw_home_cinema_l7yl.svg"
+                  alt="imagen ilustrativa"
+                />
+                <p>Buscador de pelis</p>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
+      <! –– Inicio Secciones Contactame y Formulario -->
+
+      <section class="seccion-contacto-formulario" id="contacto">
+        <div class="contenedor-contactame-escribime">
+          <! -- Contactame -->
+
+          <div class="apartado-contactame">
+            <h2>Contactame</h2>
+            <p>
+               ¿Tenés alguna idea en mente y querés verla materializada? Buscame por mis redes, escribime y ¡charlamos!
+            </p>
+            <section class="contenedor-links-redes">
+              <ul class="links-redes-sociales">
+                <li>
+                  <a href="https://twitter.com/_giava" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                    @_giava</a
+                  >
                 </li>
-            </ul>
-        </nav>
+                <li>
+                  <a href="https://github.com/giannagiava" target="_blank">
+                    <i class="fa fa-github"></i>
+                    giannagiava</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-linkedin"></i>
+                    GiannaGiavarini</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mail.google.com/mail/u/0/#inbox"
+                    target="_blank"
+                  >
+                    <i class="fa fa-envelope"></i>
+                    giavarinigianna@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
 
-        <! –– Main -->
-            <main>
+          <! -- Formulario -->
 
-                <! -- Inicio seccion presentacion -->
+          <div class="apartado-escribime">
+            <h2>Escribime</h2>
 
-                    <section class="seccion margin-section-presentacion" id="hola">
-                        <div class="contenido-presentacion">
-                            <p class="seccion-presentacion-saludo">¡Hola! Soy</p>
-                            <h1 class="titulo-principal">Gianna Giavarini</h1>
-                            <p class="seccion-presentacion-descripcion">Desarrolladora frontend en proceso &#9203;
-                            </p>
-                            <a class="link-seccion-presentacion" href="#proyectos">LO QUE HAGO</a>
-                        </div>
-                        <div>
-                            <img class="imagen-principal" src="img/img-presentacion/undraw_Plans_re_s9mf.svg"
-                                alt="imagen ilustrativa">
-                        </div>
-                    </section>
+            <form class="apartado-escribime" action="">
+              <div class="campos-nombre-apellido">
+                <div class="campo-nombre">
+                  <label for="nombre">Nombre *</label>
+                  <input
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    placeholder="Por ej: Juan"
+                  />
+                </div>
 
-                    <! –– Inicio seccion skills -->
+                <div>
+                  <label for="apellido">Apellido *</label>
+                  <input
+                    type="text"
+                    name="apellido"
+                    id="apellido"
+                    placeholder="Por ej: Perez"
+                  />
+                </div>
+              </div>
 
-                        <section class="seccion color-fondo-contenedor-gris" id="conocimientos">
-                            <div class="contenedor-seccion-skills">
-                                <h2>Mis Conocimientos</h2>
-                                <p class="texto-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Beatae eaque neque molestias
-                                    consequuntur vel ab quas architecto.</p>
-                                <div class="skills">
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/html5-original.svg" alt="html">
-                                        <p class="titulo-skills">HTML 5</p>
-                                    </div>
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/css3-original.svg" alt="css">
-                                        <p class="titulo-skills">CSS 3</p>
-                                    </div>
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/sass-original.svg" alt="sass">
-                                        <p class="titulo-skills">Sass</p>
-                                    </div>
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/javascript-original.svg" alt="javascript">
-                                        <p class="titulo-skills">JavaScript</p>
-                                    </div>
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/react-original.svg" alt="react">
-                                        <p class="titulo-skills">React</p>
-                                    </div>
-                                    <div class="contenedor-skills">
-                                        <img class="imagen-skills" src="./img/git-original.svg" alt="git">
-                                        <p class="titulo-skills">GIT</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Por ej: juanperez@gmail.com"
+              />
 
-                        <! –– Inicio seccion cita -->
+              <label for="mensaje">Mensaje *</label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Escriba su mensaje aquí"
+              ></textarea>
 
-                            <blockquote class="seccion color-fondo-cita">
-                                <div class="contenedor-cita">
-                                    <i class="fa fa-quote-right"></i>
-                                    <div class="texto-cita">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat
-                                            aspernatur laboriosam doloremque iste perspiciatis veniam culpa beatae magni
-                                            quo natus nostrum, laudantium exercitationem sit minima aut totam
-                                            praesentium aliquam.</p>
-                                    </div>
-                                    <p class="nombre-autor-cita">Someone</p>
-                                </div>
-                            </blockquote>
+              <label for="enviar">
+                <input
+                  class="enviar-formulario"
+                  type="submit"
+                  name="enviar"
+                  value="Enviar"
+                />
+              </label>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
 
-                            <! –– Inicio seccion proyectos -->
+    <! -- Inicio seccion Footer -->
 
-                                <section class="seccion" id="proyectos">
-                                    <div class="seccion-proyectos">
-                                        <h2>Mis proyectos</h2>
-                                        <p class="texto-seccion-proyectos">Estos son algunos de los proyectos que
-                                            iré desarrollando
-                                            <br>
-                                             a lo largo de mi
-                                            cursada por ADA</p>
-
-                                        <div class="contenedor-seccion-proyectos">
-
-                                            <div class="cards-proyectos">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_Plans_re_s9mf.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Portfolio</p>
-                                            </div>
-
-                                            <div class="cards-proyectos">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_Feeling_of_joy_re_cqko.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Generador de memes</p>
-                                            </div>
-
-                                            <div class="cards-proyectos">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_Mobile_apps_re_3wjf.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Match 3</p>
-                                            </div>
-
-                                            <div class="cards-proyectos">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_revenue_3osh.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Controlador de gastos</p>
-                                            </div>
-
-                                            <div class="cards-proyectos">
-                                                <a href="">
-                                                    <img src="img/img-seccion-proyectos/undraw_Calendar_re_ki49.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Administrador de reuniones</p>
-                                            </div>
-
-                                            <div class="cards-proyectos">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_my_app_re_gxtj.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Todo app</p>
-                                            </div>
-
-                                            <div class="cards-proyectos ">
-                                                <a href="#portfolio">
-                                                    <img src="img/img-seccion-proyectos/undraw_home_cinema_l7yl.svg"
-                                                        alt="imagen ilustrativa">
-                                                </a>
-                                                <p>Buscador de pelis</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </section>
-
-                                <! –– Inicio Secciones Contactame y Formulario -->
-
-                                    <section class="seccion-contacto-formulario" id="contacto">
-
-                                        <div class="contenedor-contactame-escribime">
-
-                                            <! -- Contactame -->
-
-                                                <div class="apartado-contactame">
-                                                    <h2>Contactame</h2>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                        Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi
-                                                        quasi repudiandae quam hic quo, qui cumque nam
-                                                        voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                                                    <section class="contenedor-links-redes">
-                                                        <ul class="links-redes-sociales">
-                                                            <li>
-                                                                <a href="https://twitter.com/_giava" target="_blank">
-                                                                    <i class="fa fa-twitter"></i>
-                                                                    @_giava</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://github.com/giannagiava"
-                                                                    target="_blank">
-                                                                    <i class="fa fa-github"></i>
-                                                                    giannagiava</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/"
-                                                                    target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                    GiannaGiavarini</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://mail.google.com/mail/u/0/#inbox"
-                                                                    target="_blank">
-                                                                    <i class="fa fa-envelope"></i>
-                                                                    giavarinigianna@gmail.com</a>
-                                                            </li>
-                                                        </ul>
-                                                    </section>
-
-                                                </div>
-
-                                                <! -- Formulario -->
-
-                                                    <div class="apartado-escribime">
-
-                                                        <h2>Escribime</h2>
-
-                                                        <form class="apartado-escribime" action="">
-                                                            <div class="campos-nombre-apellido">
-
-                                                                <div class="campo-nombre">
-                                                                    <label for="nombre">Nombre *</label>
-                                                                    <input type="text" name="nombre" id="nombre"
-                                                                        placeholder="Por ej: Juan">
-                                                                </div>
-
-                                                                <div>
-                                                                    <label for="apellido">Apellido *</label>
-                                                                    <input type="text" name="apellido" id="apellido"
-                                                                        placeholder="Por ej: Perez">
-                                                                </div>
-                                                            </div>
-
-
-                                                            <label for="email">Email *</label>
-                                                            <input type="email" name="email" id="email"
-                                                                placeholder="Por ej: juanperez@gmail.com">
-
-
-
-                                                            <label for="mensaje">Mensaje *</label>
-                                                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"
-                                                                placeholder="Escriba su mensaje aquí"></textarea>
-
-
-
-                                                            <label for="enviar">
-                                                                <input class="enviar-formulario" type="submit"
-                                                                    name="enviar" value="Enviar">
-                                                            </label>
-
-                                                        </form>
-
-                                                    </div>
-
-                                        </div>
-
-                                    </section>
-
-
-            </main>
-
-            <! -- Inicio seccion Footer -->
-
-                <footer class="seccion color-fondo-footer">
-                    <div class="contenedor-footer">
-                        <div class="lista-principal-footer">
-                            <ul>
-                                <li>
-                                    <a href="#hola">HOLA</a>
-                                </li>
-                                <li>
-                                    <a href="#conocimientos">CONOCIMIENTOS</a>
-                                </li>
-                                <li>
-                                    <a href="#proyectos">PROYECTOS</a>
-                                </li>
-                                <li>
-                                    <a href="#contacto">CONTACTO</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="lista-redes-sociales-footer">
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/_giava" target="_blank">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/giannagiava" target="_blank">
-                                        <i class="fa fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/" target="_blank">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-                                        <i class="fa fa-envelope"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>Hecho con &#128420; por Gianna</p>
-                    </div>
-                </footer>
-
-
-</body>
-
+    <footer class="seccion color-fondo-footer">
+      <div class="contenedor-footer">
+        <div class="lista-principal-footer">
+          <ul>
+            <li>
+              <a href="#hola">HOLA</a>
+            </li>
+            <li>
+              <a href="#conocimientos">CONOCIMIENTOS</a>
+            </li>
+            <li>
+              <a href="#proyectos">PROYECTOS</a>
+            </li>
+            <li>
+              <a href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lista-redes-sociales-footer">
+          <ul>
+            <li>
+              <a href="https://twitter.com/_giava" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/giannagiava" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gianna-giavarini-b980b5207/"
+                target="_blank"
+              >
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>Hecho con &#128420; por Gianna</p>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -28,17 +28,17 @@ a{
     box-sizing: border-box;
 }
 .lista-nav-principal{
+    margin: 0 16px;
     font-size: 16px;
     font-weight: 600;
-    margin: 0 16px;
 }
 
 .link-contacto-nav-principal{
-    margin-right: 100px;
     padding: 10px 10px;
-    border-radius: 60px;
+    margin-right: 100px;
     color: white;
     background-color: #73454E;
+    border-radius: 60px;
 }
     
      /* HOVER y FOCUS SECCION NAV*/
@@ -49,11 +49,10 @@ a{
 }
 
 .lista-nav-principal :focus{
-    box-shadow: 0px 0px 7px #613a42;
     padding: 10px 10px;
     border-radius: 60px;
     background-color: #B5838D;
-    
+    box-shadow: 0px 0px 7px #613a42;
 } 
 
 
@@ -64,8 +63,8 @@ h2{
     font-weight: 900;
 }
 ul{
-    list-style: none;
     display: flex;
+    list-style: none;
 }
 .seccion{
     display: flex;
@@ -74,9 +73,6 @@ ul{
     text-align: center;
 }
 
-.color-fondo-contenedor-gris{
-    background-color: #F6F7FB;
-}
 
 /* ## Comienzo seccion presentacion ## */
 
@@ -91,30 +87,30 @@ ul{
     text-align: start;
 }
 .seccion-presentacion-saludo{
+    margin-bottom: 16px;
     font-size: 2rem;
     font-weight: 800;
-    margin-bottom: 16px;
 }
 
 .titulo-principal{
-    font-size: 4rem;
     margin-bottom: 16px;
+    font-size: 4rem;
     color: #B5838D;
 }
 
 .seccion-presentacion-descripcion{
-    font-size: 20px;
     margin-bottom: 16px;
+    font-size: 20px;
 }
 
 .link-seccion-presentacion{
     padding: 10px 30px;
-    border-radius: 60px;
     margin-top: 20px;
-    background-color: #73454E;
-    color: white;
     font-size: 18px;
     font-weight: 600;
+    color: white;
+    background-color: #73454E;
+    border-radius: 60px;
 }
 .imagen-principal{
    width: 450px;
@@ -123,43 +119,49 @@ ul{
 
 /* ## Inicio seccion skills ## */
 
+.color-fondo-seccion-skills{
+    background-color: #F6F7FB;
+}
+
 .contenedor-seccion-skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
 }
-.texto-conocimientos{
-    width: 300px;
+.contenedor-seccion-skills p{
     padding: 20px 0;
 }
-.skills{
+.contenedor-skills{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.contenedor-skills{
-    background-color: white;
-    border: 1px solid rgb(221, 214, 214);
-    border-radius: 8px;
-    padding: 35px 50px;
-    margin: 20px;
+.skills{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 35px 50px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid rgb(221, 214, 214);
+    border-radius: 8px;
 }
-.titulo-skills{
+.skills p{
     padding-top: 30px;
     font-weight: 800;
 }
 
-.imagen-skills{
+.skills img{
     width: 70%;
     height: auto;
 }
 
+/* HOVER */
 
-
+.contenedor-skills :hover{
+    background-color: #C9A6AD;
+}
   
 /* ## Inicio seccion cita ##*/
 
@@ -177,20 +179,21 @@ ul{
 }
 .texto-cita{
     width: 600px;
-    font-size: 22px;
     padding: 30px 0;
+    font-size: 22px;
 }
 .nombre-autor-cita{
-    font-size: 30px;
+    font-size: 28px;
 }
 
 /*Inicio seccion proyectos*/
 
-.contenedor-seccion-proyectos{
+.contenedor-cards-proyectos{
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
     background-color: white;
+
 }
 
 .texto-seccion-proyectos{
@@ -201,12 +204,12 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    border: 1px solid rgb(221, 214, 214);
-    border-radius: 8px;
     padding: 20px;
     margin: 10px;
     width: 300px;
+    background-color: white;
+    border: 1px solid rgb(221, 214, 214);
+    border-radius: 8px; 
 }
 .cards-proyectos img{
     display: flex;
@@ -214,9 +217,12 @@ ul{
 }
 
 .cards-proyectos p{
-    font-size: 18px;
     padding-top: 20px;
-    
+    font-size: 18px;
+}
+
+.contenedor-cards-proyectos :hover{
+    border: 1px solid green;
 }
 
 /*Inicio seccion contactame y escribime*/
@@ -224,17 +230,17 @@ ul{
 .seccion-contacto-formulario{
     display: flex;
     justify-content: center;
-    padding: 100px 40px;
     text-align: center;
+    padding: 100px 40px;
 	background-color: #F6F7FB;
 }
 
 .contenedor-contactame-escribime{
+    display: flex;
+    padding: 80px 60px;
     background-color: white;
     border: 1px solid rgb(221, 214, 214);
     border-radius: 15px;
-    display: flex;
-    padding: 80px 60px;
 }
 
 
@@ -250,10 +256,10 @@ ul{
     padding-bottom: 40px;
 }
 .apartado-contactame p{
-    text-align: start;
-    max-width: 400px;
     padding-bottom: 40px;
     padding-top: 10px;
+    text-align: start;
+    max-width: 400px;
 }
 .contenedor-link-redes{
     display: flex; 
@@ -264,9 +270,9 @@ ul{
     align-items: flex-start;
 }  
 .links-redes-sociales .fa{
+    padding: 10px 10px;
     font-size: 25px;
     color: #b5838d;
-    padding: 10px 10px;
     border-radius: 50%;
 }
 
@@ -309,15 +315,15 @@ label{
     margin-right: 10px;
 }
 input, textarea{
+    box-sizing: border-box;
     padding: 10px 10px;
     margin-right: 10px;
-    background-color: #F6F7FB;
-    border-radius: 15px;
-    border: 1px solid #F6F7FB;
-    outline: 0;
-    font-size: 17px;
-    box-sizing: border-box;
     width: 100%;
+    font-size: 17px;
+    outline: 0;
+    background-color: #F6F7FB;
+    border: 1px solid #F6F7FB;
+    border-radius: 15px;
 }
 input[type="email"]{
     width: 100%;
@@ -327,10 +333,10 @@ textarea{
 }
 input[type="submit"] {
     padding: 10px 30px;
-    border-radius: 60px;
-    background-color: #73454E;
-    color: white;
     font-size: 20px;
+    color: white;
+    background-color: #73454E;
+    border-radius: 60px;
 }
 
      /* FOCUS SECCION FORMULARIO */
@@ -368,13 +374,13 @@ input:focus, textarea:focus {
     padding: 10px 10px;
     margin: 0 10px;
     background-color: white;
-    border-radius: 50%;
     border: 1px solid white;
+    border-radius: 50%;
 }
 .lista-redes-sociales-footer i{
     font-size: 25px;
-    background-color: white;
     color: #b5838d;
+    background-color: white;
 }
  
 /* HOVER LINK REDES SOCIALES */
@@ -405,8 +411,8 @@ input:focus, textarea:focus {
         justify-content: center;
     }
     .imagen-principal{
+        margin-top: 100px;
        text-align: center;
-       margin-top: 100px;
     }
     .contenedor-seccion-proyectos{
         display: flex;
@@ -427,13 +433,11 @@ input:focus, textarea:focus {
         padding: 50px 20px;
         background-color: white;
     }
-
-
     .contenedor-contactame-escribime{
         display: flex;
         flex-direction: column;
-        border: 0;
         padding: 0;
+        border: 0;
     }
     .color-fondo-seccion-contacto {
         background-color: white;
@@ -476,8 +480,8 @@ input:focus, textarea:focus {
 
     .texto-cita{
         width: 300px;
-        font-size: 22px;
         padding: 30px 0;
+        font-size: 22px;
     }
 
     .contenedor-seccion-proyectos{
