@@ -1,6 +1,6 @@
 # Mi Portfolio 🚀
 
-Portfolio personal desarrollado para plasmar mi aprendizaje adquirido en el primer módulo del Bootcamp que estoy cursando en [ADA ITW](https://adaitw.org/)
+Portfolio personal
 
 
 ## Construido con 🛠️
