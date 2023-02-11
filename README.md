@@ -11,9 +11,8 @@ Portfolio personal
 - Está maquetado con Flex
 - Tiene un diseño responsive para diferentes pantallas
 - Es un sitio web accesible
-- Está deployado en Netlify
 
-### [Haciendo click acá podés verlo materializado](https://giannagiavarini.netlify.app/) ✨
+### [Haciendo click acá podés verlo materializado](https://giannagiava.github.io/Portfolio-Gianna-Giavarini/) ✨
 
 
 ¡Gracias por visitar mi repositorio :)!
